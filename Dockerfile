@@ -24,3 +24,4 @@ RUN mv /opt/tomcat/apache-tomcat/* /opt/tomcat/ && \
 ## add admin user to tomcat
 ADD tomcat-users.xml /opt/tomcat/conf/tomcat-users.xml
 ENTRYPOINT su -c "/opt/tomcat/bin/catalina.sh run" tomcat
+#test
